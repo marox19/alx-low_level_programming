@@ -8,11 +8,10 @@ int main(void)
 {
 	int x;
 
-	while(x <= 9;)
+	for (x = 0; x <= 9; x++)
 	{
-	putchar(x + '0');
-	x++;
+		putchar(x);
 	}
-	putchar('\n');
+
 	return (0);
 }
