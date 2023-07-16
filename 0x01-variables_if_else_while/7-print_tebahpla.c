@@ -1,4 +1,3 @@
-#include<string.h>
 #include<stdio.h>
 /**
  * main - Entry point
@@ -7,11 +6,11 @@
  */
 int main(void)
 {
-	int x;
+	char c;
 
-	for (x = 0; x <= 9; x++)
+	for (c = 'z'; c >= 'a'; --c)
 	{
-		putchar(x + 48);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
