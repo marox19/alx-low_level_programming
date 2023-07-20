@@ -2,7 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* while (i < 10)
 * Return: 0
 */
 
