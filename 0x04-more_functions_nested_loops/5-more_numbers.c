@@ -5,23 +5,19 @@
   */
 void more_numbers(void)
 {
-	int i;
+	int num, row, count;
 
-	int a;
-
-	int r;
-
-	for (i = 0; i <= 10; i++)
+	for (row = 1; row <= 10; row++)
 	{
-		for (a = 0; a <= 14; a++)
+		for (count = 0; count <= 14; count++)
 		{
-			a = r;
-			if (a > 9)
+			num = count;
+			if (count > 9)
 			{
 				_putchar(1 + 48);
-				r = a % 10;
+				num = count % 10;
 			}
-			_putchar(r + 48);
+			_putchar(num + 48);
 		}
 		_putchar('\n');
 	}
