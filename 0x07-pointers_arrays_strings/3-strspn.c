@@ -15,11 +15,10 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (l = 0; accept[l] != s[r]; l++)
 		{
-			if (accept[l] != '\0')
-			
-				return (l);
-			
+			if (accept[l] == '\0')
+
+				return (r);
 		}
 	}
-	return (l);
+	return (r);
 }
