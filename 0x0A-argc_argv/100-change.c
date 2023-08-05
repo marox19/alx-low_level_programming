@@ -6,11 +6,11 @@
   *@argv: char
   *Return: Always 0
   */
-int main( int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc == 2)
 	{
-		int i;		
+		int i;
 
 		int lcents = 0, money = atoi(argv[1]);
 
@@ -30,7 +30,7 @@ int main( int argc, char *argv[])
 		}
 		printf("%d\n", lcents);
 	}
-	else 
+	else
 	{
 		printf("Error\n");
 		return (1);
