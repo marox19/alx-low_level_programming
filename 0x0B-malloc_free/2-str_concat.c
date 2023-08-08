@@ -1,10 +1,7 @@
 #include "main.h"
 /**
-  * *str_concat - Entry point
-  * _strlen - Function call
+  *  _strlen - Function call
   *@s: char
-  *@s1: char
-  *@s2: char
   *Return: Always 0 success
   */
 
@@ -17,6 +14,12 @@ int _strlen(char *s)
 	return (size);
 }
 
+/**
+  * *str_concat - Entry point
+  *@s1: char
+  *@s2: char
+  *Return: 0
+  */
 char *str_concat(char *s1, char *s2)
 {
 	int i;
